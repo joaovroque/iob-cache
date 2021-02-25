@@ -29,3 +29,7 @@ int cache_read_miss();
 int cache_write_hit();  
 int cache_write_miss();  
 int cache_counter_reset();
+// Write-Back only functions
+void cache_offset(int incr);
+void cache_flush();
+ 
